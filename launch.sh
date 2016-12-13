@@ -1,5 +1,4 @@
 #!/bin/bash
-#
 
 if [ ! -z "$ADDRESS" ]; then
 	sed -i "s/<address>/$ADDRESS/g" /home/private-bower/bowerConfig.json
